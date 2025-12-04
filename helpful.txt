@@ -1,0 +1,11 @@
+Docker build
+
+docker build -t forecast-api .
+
+Docker run
+
+docker run -p 8080:80 forecast-api
+
+Access API
+
+http://0.0.0.0:8080/docs
